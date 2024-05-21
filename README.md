@@ -76,6 +76,8 @@ Lastly, to complete this task, I had to do a git clone on the repo within my ter
 Next I used a Html template called `miniport` to create my resume. As the focus of this project is not html/css many youtube videos and articles recommended using [html5up](https://html5up.net) for templates.
 
 
+![alt text](<images/Screenshot 2024-05-21 at 14.59.46.png>)
+
 # resources
 https://www.linkedin.com/pulse/github-repository-create-terraform-anish-kumar/
 <br>
