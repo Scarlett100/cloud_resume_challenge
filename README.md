@@ -95,7 +95,7 @@ Now, that I have cloned, I want to have a .gitignore for when I state doing more
 
 # HTML
 
-Next I used a Html template called `miniport` to create my resume. As the focus of this project is not html/css many youtube videos and articles recommended using [html5up](https://html5up.net) for templates.
+Next I used a Html template called `miniport` to use as the basis to create my resume. As the focus of this project is not html/css many youtube videos and articles recommended using [html5up](https://html5up.net) for templates.
 
 
 ![alt text](<images/Screenshot 2024-05-21 at 14.59.46.png>)
