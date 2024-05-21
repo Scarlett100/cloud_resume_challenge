@@ -11,8 +11,26 @@
 - [resources](#resources)
 
 
+#  What is the Cloud Resume Project
 
-# Using Terraform to create the git repo.
+
+# How do I intend to build my cloud resume
+
+* Terraform
+* Trello
+* AWS
+* GIT
+* S3
+* DNS
+
+EXTRA:
+* JENKINS
+
+## Getting Started
+First I set up the **Trello** board with all the first few tasks I could think of.
+
+
+## Using Terraform to create the git repo.
 
 On this project I wanted to utilise infrastructure as code (IAC) as much as possible. Therefore to create this repo I used Terraform.There were a few steps:
 
@@ -50,7 +68,8 @@ Next was to build the infrastructure:
 ![alt text](<images/Screenshot 2024-05-21 at 14.42.51.png>)
 
 
-####  Deployment
+<h4 style="text-align: center;"><u>Deployment</u></h4>
+
 
 To deploy the infrastructure I had to run the 3 famous Terraform commands: 
 `terraform init` > `terraform plan` > `terraform apply` 
@@ -63,7 +82,8 @@ Finally, my infrastructure had been deployed to Github and I have an empty repo 
 
 ![alt text](<images/Screenshot 2024-05-21 at 14.50.41.png>)
 
-#### Git Clone
+<h4 style="text-align: center;"><u>Git Clone</u></h4>
+
 
 Lastly, to complete this task, I had to do a git clone on the repo within my terminal, so that I could continue the project. Once done, I copied over the files I wanted within the folders and pushed to github.
 
