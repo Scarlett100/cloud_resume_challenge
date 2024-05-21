@@ -59,10 +59,9 @@ To deploy the infrastructure I had to run the 3 famous Terraform commands:
 
 <br>
 Finally, my infrastructure had been deployed to Github and I have an empty repo with no files:
-
 <br>
-![alt text](<images/Screenshot 2024-05-21 at 14.50.41.png>)
 
+![alt text](<images/Screenshot 2024-05-21 at 14.50.41.png>)
 
 #### Git Clone
 
