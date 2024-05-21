@@ -17,11 +17,11 @@
 On this project I wanted to utilise infrastructure as code (IAC) as much as possible. Therefore to create this repo I used Terraform.There were a few steps:
 
 * Creating the personal access token
-* Creating the .gitignore file
 * Creating the variable for the Personal access token
 * Creating the infrastructure
 * Deployment
 * Git clone
+* Creating the .gitignore file
 
 
 #### Creating the personal access token
@@ -31,17 +31,14 @@ Firstly, I went to `  Settings > Developer Settings > Personal access token`. On
 ![alt text](<images/Screenshot 2024-05-21 at 14.30.01.png>)
 
 
-![alt text](<Screenshot 2024-05-21 at 14.30.25.png>)
+![alt text](<images/Screenshot 2024-05-21 at 14.30.25.png>)
 
 Now that that had been created and saved I needed to save the token code somewhere safe as you only have one opportunity to view it.
 
-#### Creating the .gitignore file
-
-Now, this was not needed at this stage but I like to get into the habit of always making one so I never forget. This is needed once I clone the repo and use Terraform further.
 
 ####  Creating the variable for the Personal access token
 
-Next I created a `variable.tf` in which the personal access token was stored. This file goes into the `.gitignore` because it contains sensitive information. The variable was then used in the `github.tf` file.
+Next I created a `variable.tf` in which the personal access token was stored. This file goes into the `.gitignore` because it contains sensitive information. The variable was then used in the [github.tf](https://github.com/Scarlett100/cloud_resume_challenge/blob/master/terraform_for_reference/github.tf) file.
 
 ![alt text](<images/Screenshot 2024-05-21 at 14.41.16.png>)
 
@@ -52,6 +49,7 @@ Next was to build the infrastructure:
 
 ![alt text](<images/Screenshot 2024-05-21 at 14.42.51.png>)
 
+
 ####  Deployment
 
 To deploy the infrastructure I had to run the 3 famous Terraform commands: 
@@ -60,7 +58,7 @@ To deploy the infrastructure I had to run the 3 famous Terraform commands:
 ![alt text](<images/Screenshot 2024-05-21 at 14.49.40.png>)
 
 <br>
-Finally, my infrastructure had been deployed to Github:
+Finally, my infrastructure had been deployed to Github and I have an empty repo with no files:
 
 <br>
 ![alt text](<images/Screenshot 2024-05-21 at 14.50.41.png>)
@@ -69,6 +67,11 @@ Finally, my infrastructure had been deployed to Github:
 #### Git Clone
 
 Lastly, to complete this task, I had to do a git clone on the repo within my terminal, so that I could continue the project. Once done, I copied over the files I wanted within the folders and pushed to github.
+
+#### Creating the .gitignore file
+
+Now, that I have cloned, I want to have a .gitignore for when I state doing more things, I've also copied some of the terraform files for reference, so don't want them visible and risking being unsafe such as the file holding the variables.
+
 
 
 # HTML
