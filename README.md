@@ -1,4 +1,4 @@
-# The Cloud Resume Project!
+# The Cloud Resume Project
 \- [The Cloud Resume Project!](#the-cloud-resume-project)
 - [Using Terraform to create the git repo.](#using-terraform-to-create-the-git-repo)
       - [Creating the personal access token](#creating-the-personal-access-token)
