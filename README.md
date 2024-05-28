@@ -10,6 +10,7 @@
       - [Creating the .gitignore file](#creating-the-gitignore-file)
 - [HTML](#html)
 - [AWS Budgets](#aws-budgets)
+- [AWS IAM](#aws-iam)
 - [Resources](#resources)
 
 
@@ -133,7 +134,21 @@ I then considered adding an action if threshold is reached, but decided to wait 
 
 
 
+# AWS IAM
 
+  To work within best practices there are 5 steps to follow:
+
+  * Enable Identity Center
+  * Choose Identity Source
+  * Create an admin Permission Set
+  * Set Up Account For Identity Center Admin User
+  * Sign into AWS Portal
+
+First I went too `IAM Identity Center > Enable > Enable with AWS Organizations`
+
+
+I ran into this blocker:
+![alt text](<images/Screenshot 2024-05-28 at 14.00.58.png>)
 
 
 
@@ -152,6 +167,8 @@ I then considered adding an action if threshold is reached, but decided to wait 
 <br>
 
 * [Budgets](https://www.youtube.com/watch?v=WtokD2JD7K8)
+  <br>
+* [Setting up IAM](https://www.youtube.com/watch?v=_KhrGFV_Npw)
 
 
 
