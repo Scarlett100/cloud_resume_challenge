@@ -100,12 +100,50 @@ Next I used a Html template called `miniport` to use as the basis to create my r
 
 ![alt text](<images/Screenshot 2024-05-21 at 14.59.46.png>)
 
-# resources
-https://www.linkedin.com/pulse/github-repository-create-terraform-anish-kumar/
+
+
+# AWS Budgets
+
+Next was time to move to AWS. I had done a great deal of research into this part as I did not want to be presented.
+
+So my next focus was to create AWS budgets to be alerted of billing thresholds. I didn't want to go over £10 at any one time. So I created a budget to reflect that.
+
+I knew I wanted to create my s3 bucket through Terraform, so that tearing down would be easy and avoid charges, so that was going to be my next goal after setting up budgets.
+
+
+I do need to make an IAM user but first, to apply the budget I would like, I need to be logged in as a **root user**.
+
+To note I am working in the region of **Ireland** or **eu-west-1** due to reports of it being the cheapest in Europe, but when doing budgets it will be global.
+
+At first, I decided to create a zero spend budget based on the fact that I wanted to know what was costing.
+
+![alt text](<images/Screenshot 2024-05-28 at 13.18.41.png>)
+
+I then ended up choosing to add another alert for when 80% of the threshold is reached.
+
+![alt text](<images/Screenshot 2024-05-28 at 13.27.50.png>)
+
+I then considered adding an action if threshold is reached, but decided to wait to see how long it would take to reach the threshold.
+
+![alt text](<images/Screenshot 2024-05-28 at 13.26.55.png>)
+
+
+
+
+
+
+
+# Resources
+* [Create repo via Terraform](https://www.linkedin.com/pulse/github-repository-create-terraform-anish-kumar/)
 <br>
-https://www.youtube.com/watch?v=NNKzYhvqq5w
+* [Cloud Resume Challenge in AWS ](https://www.youtube.com/watch?v=NNKzYhvqq5w)
 <br>
-https://html5up.net
+* [html-templates](https://html5up.net)
 <br>
-https://cloudresumechallenge.dev
+* [Cloud Resume Offcial Site](https://cloudresumechallenge.dev)
 <br>
+* [Budgets](https://www.youtube.com/watch?v=WtokD2JD7K8)
+
+
+
+
