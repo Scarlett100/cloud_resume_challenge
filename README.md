@@ -140,12 +140,17 @@ I then considered adding an action if threshold is reached, but decided to wait 
 # Resources
 * [Create repo via Terraform](https://www.linkedin.com/pulse/github-repository-create-terraform-anish-kumar/)
 <br>
-* [Cloud Resume Challenge in AWS ](https://www.youtube.com/watch?v=NNKzYhvqq5w)
+
+* [Cloud Resume Challenge in AWS](https://www.youtube.com/watch?v=NNKzYhvqq5w)
+  
 <br>
+
 * [html-templates](https://html5up.net)
 <br>
+
 * [Cloud Resume Offcial Site](https://cloudresumechallenge.dev)
 <br>
+
 * [Budgets](https://www.youtube.com/watch?v=WtokD2JD7K8)
 
 
