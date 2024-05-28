@@ -1,14 +1,17 @@
 # The Cloud Resume Project
-\- [The Cloud Resume Project!](#the-cloud-resume-project)
-- [Using Terraform to create the git repo.](#using-terraform-to-create-the-git-repo)
+- [The Cloud Resume Project](#the-cloud-resume-project)
+- [What is the Cloud Resume Project](#what-is-the-cloud-resume-project)
+- [How do I intend to build my cloud resume](#how-do-i-intend-to-build-my-cloud-resume)
+  - [Getting Started](#getting-started)
+  - [Using Terraform to create the git repo.](#using-terraform-to-create-the-git-repo)
       - [Creating the personal access token](#creating-the-personal-access-token)
-      - [Creating the .gitignore file](#creating-the-gitignore-file)
       - [Creating the variable for the Personal access token](#creating-the-variable-for-the-personal-access-token)
       - [Creating the infrastructure](#creating-the-infrastructure)
-      - [Deployment](#deployment)
-      - [Git Clone](#git-clone)
+      - [Creating the .gitignore file](#creating-the-gitignore-file)
 - [HTML](#html)
-- [resources](#resources)
+- [AWS Budgets](#aws-budgets)
+- [Resources](#resources)
+
 
 
 #  What is the Cloud Resume Project
@@ -126,6 +129,7 @@ I then ended up choosing to add another alert for when 80% of the threshold is r
 I then considered adding an action if threshold is reached, but decided to wait to see how long it would take to reach the threshold.
 
 ![alt text](<images/Screenshot 2024-05-28 at 13.26.55.png>)
+
 
 
 
